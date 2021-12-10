@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Merriweather:ital,wght@1,900&family=Smooch&family=Ultra&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url('./images/bg6-resized.jpg') fixed center;
+    font-family: 'Eczar', serif !important;
+}
+.about-body h1, .heading, .gallery-body h2, .foot h2{
+    font-family: 'Ultra', serif;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+p{
+    margin: 0 !important;
+}
+nav{
+    width: 100%;
+}
+.navbar-light .logo{
+    width: 120px;
+}
+.navbar-nav .active{
+    font-weight: bold;
+}
+.navbar{
+    background-color: rgba(255, 122, 122, 0.727);
+    color: #fff;
+}
+.nav-link{
+    color: #fff !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url('./images/IMG_3437.PNG') !important;
+}
+.half{
+    padding: 19px 0;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.small-title{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Merriweather', cursive;
+    color: red;
+}
+.big{
+    padding: 7px 0;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+.motto{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Smooch', cursive;
+}
+.slide{
+    margin: 50px 0;
+}
+.carousel{
+    padding: 10px 0;    
+}
+.carousel-indicators{
+    display: none !important;
+}
+.carousel-item{
+    background-color: rgba(0, 0, 0, 0.191);
+    padding: 0 5% !important;
+    height: 90px;
+    color: #fff;
+}
+.d-block{
+    padding-bottom: 4px;
+    text-align: center;
+    padding: 4px 0;
+}
+.carousel-caption{
+    bottom: 1px !important;
+    padding-bottom: 5px !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 5% !important;
+}
+ul{
+    list-style-type: none;
+}
+.footer{
+    width: 100%;
+    padding: 0 39px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.top{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.top .about-us{
+    background-color: red;
+    margin: 0 5px 15px 0;
+}
+.top .reserve{
+    background-color: #000;
+    color: #fff;
+    margin: 0 0 15px 5px;
+}
+.top li, .bottom li{
+    padding: 10px;
+    border-radius: 4px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: #fff;
+}
+.bottom li{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.212);
+    margin: 0 5px 0 0;
+}
+.top li, .bottom li:hover{
+    cursor: pointer;
+}
+.bottom img{
+    width: 25px;
+    height: 20px;
+    color: #fff;
+    padding: 0 6px 0 0;
+}
+.bottom li p{
+    padding: 0 0 0 4px;
+}
+.row{
+    margin: 15px 0 !important;
+}
+/*menu*/
+.sections{
+    padding: 20px 15px;    
+    color: white;
+}
+.sections .info{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+section{
+    margin-bottom: 20px;
+}
+.menu .food{
+    display: flex;
+    justify-content: space-between;
+}
+.img-box{
+    width: 35%;
+    padding: 0 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box img{ 
+    width: 250px;
+    transform: rotate(340deg);
+    padding-right: 40px;
+}
+.menu-list{
+    width: 65%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 50px;
+    
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px 10% 0 0;
+}
+.menu-list table{
+    width: 100%;
+}
+tr{
+    margin: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.last-item{
+    border-bottom: 0
+}
+th{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.drinks .menu-list{
+    float: right;
+}
+.order{
+    position: fixed;
+    right: 0px;
+    bottom: 3px;
+    min-width: 100px;
+    padding: 3px 5px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+/*gallery*/
+.gallery-body{
+    padding: 20px 10px;
+    color: #fff;
+}
+.gallery-body h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.gallery-cards{
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery-body .btn{
+    width: 89px;
+    height: 32px;
+    border-radius: 5px;
+    padding: 4px;
+    border: 0;
+}
+.card{
+    border: 0 !important;
+    border-radius: 10px !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    margin: 3px 10px 13px 10px;
+}
+.edge .card{
+    border-radius: 0px !important;
+}
+.card-img-top{
+    width: 18rem;
+    height: 200px;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+.edge .card-img-top{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.card-body{
+    font-size: 15px;
+    padding: 10px 5px !important;
+}
+.card-text{
+    font-weight: bold;
+    font-size: 14px;    
+    padding-bottom: 5px;
+}
+.card-body i{
+    padding: 7px 0;
+}
+.btn-box{
+    position: absolute;
+    bottom: 0.3vh;
+    right: 4px;
+    margin-bottom: 2px;
+}
+/*about*/
+.about-body, .foot{
+    padding: 20px 10px;
+    color: #fff;
+}
+.about-body{
+    margin-bottom: 20px;
+}
+.about-body h1, .foot h2{
+    text-align: center;
+    margin: 10px auto 20px;
+}
+.about{
+    color: rgb(236, 236, 236);
+}
+.logo-box{
+    float: left;
+    padding: 10px 5px;
+}
+.logo-box img{
+    width: 300px;
+}
+.about{
+    text-align: justify;
+}
+.foot .bottom{
+    text-transform: uppercase;
+}
+/*media queries*/
+@media screen and (max-width: 360px){
+    .carousel-item{
+        height: 100px;
+    }
+    .btn-box{
+        position: static;
+        bottom: unset;
+        right: unset;
+        float: right;
+    }
+}
+@media screen and (max-width: 425px){
+    .logo-box{
+        float: none;
+        text-align: center;
+    }
+    .about-body h1{
+        display: none;
+    }
+    .about-body{
+        padding: 20px 10px 4px;
+    }
+}
+@media screen and (max-width: 768px){
+    .bottom li{
+        justify-content: start;
+    }
+    .img-box{
+        display: none;
+    }
+    section{
+        width: 100%;
+    }
+    .menu-list {
+        width: 100%;
+        padding: 10px 7px 30px;
+    }
+}
+@media screen and (min-width: 960px){
+    
+    .break{
+        display: flex;
+    }
+    .toppings , .drinks {
+        width: 50%;
+    }
+    .toppings .menu-list, .drinks .menu-list{
+        width: 100%;
+    }
+    .about-body, .foot{
+        padding: 20px 20px;
+    }
+}
